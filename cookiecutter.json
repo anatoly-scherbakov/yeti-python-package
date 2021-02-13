@@ -1,13 +1,12 @@
 {
   "project_name": "my-awesome-project",
-  "organization": "wemake.services",
+  "organization": "anatoly-scherbakov",
   "project_description": "This is how python package should look like!",
 
   "license": "MIT",
 
   "_extensions": ["jinja2_git.GitExtension"],
   "_copy_without_render": [
-    ".venv",
-    "docs/_build"
+    ".venv"
   ]
 }
