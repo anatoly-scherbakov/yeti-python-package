@@ -2,9 +2,8 @@ SHELL:=/usr/bin/env bash
 
 .PHONY: lint
 lint:
-	poetry run mypy {{ cookiecutter.project_name.lower().replace('-', '_') }} tests/**/*.py
+	poetry run mypy {{ cookiecutter.project_name.lower().replace('-', '_') }} tests
 	poetry run flake8 .
-	poetry run doc8 -q docs
 
 .PHONY: unit
 unit:

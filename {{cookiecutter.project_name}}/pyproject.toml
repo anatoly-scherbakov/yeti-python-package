@@ -10,7 +10,7 @@ style = "https://raw.githubusercontent.com/wemake-services/wemake-python-stylegu
 [tool.poetry]
 name = "{{ cookiecutter.project_name }}"
 description = "{{ cookiecutter.project_description }}"
-version = "0.1.0"
+version = "0.0.1"
 license = "{{ cookiecutter.license|upper }}"
 
 authors = []
@@ -44,8 +44,5 @@ pytest = "^6.2"
 pytest-cov = "^2.11"
 pytest-randomly = "^3.5"
 
-sphinx = "^3.4"
-sphinx-autodoc-typehints = "^1.11"
-doc8 = "^0.8"
 m2r2 = "^0.2"
 tomlkit = "^0.7"
