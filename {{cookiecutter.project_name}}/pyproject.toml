@@ -28,10 +28,11 @@ classifiers = [
 python = ">=3.6,<4.0"
 
 [tool.poetry.dev-dependencies]
-mypy = "^0.902"
+mypy = "^0.910"
 
 wemake-python-styleguide = "^0.15"
-flake8-pytest-style = "^1.4"
+flake8-pytest-style = "^1.5"
+nitpick = "^0.27"
 
 safety = "^1.10"
 
