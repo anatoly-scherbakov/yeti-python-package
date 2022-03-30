@@ -18,3 +18,7 @@ Then, create the project itself:
 ```bash
 cookiecutter gh:anatoly-scherbakov/yeti-python-package
 ```
+
+## License
+
+MIT. See [LICENSE](https://github.com/anatoly-scherbakov/yeti-python-package/blob/master/LICENSE) for more details.

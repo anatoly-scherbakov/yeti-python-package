@@ -214,3 +214,6 @@ crashlytics-build.properties
 fabric.properties
 
 .idea/
+
+# pyenv
+.python-version
